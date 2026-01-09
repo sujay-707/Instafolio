@@ -12,7 +12,7 @@ export default function SkillStoryViewer({ skill, onClose }) {
         >
           <div className="text-center px-6">
             <img
-              src={skill.image}
+              src={skill.image} alt="story"
               className="w-20 h-20 mx-auto mb-6"
             />
             <h2 className="text-2xl font-bold">{skill.title}</h2>

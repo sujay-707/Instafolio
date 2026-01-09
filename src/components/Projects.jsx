@@ -37,8 +37,8 @@ export default function Projects() {
             <p className="text-sm text-gray-400">{p.tech}</p>
 
             <div className="flex gap-4 mt-2 text-sm underline">
-              <a href={p.live} target="_blank">Live</a>
-              <a href={p.code} target="_blank">Code</a>
+              <a href={p.live} target="_blank"rel="noreferrer">Live</a>
+              <a href={p.code} target="_blank"rel="noreferrer">Code</a>
             </div>
           </div>
         ))}

@@ -1,5 +1,4 @@
 import { useState } from "react";
-import StoryBar from "../components/StoryBar";
 import StoryViewer from "../components/StoryViewer";
 import SkillStoryBar from "../components/SkillStoryBar";
 import SkillStoryViewer from "../components/SkillStoryViewer";

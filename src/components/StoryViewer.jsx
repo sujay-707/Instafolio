@@ -11,7 +11,7 @@ export default function StoryViewer({ story, onClose }) {
           className="fixed inset-0 bg-black z-50 flex items-center justify-center"
         >
           <img
-            src={story.image}
+            src={story.image} alt="story"
             className="absolute inset-0 w-full h-full object-cover opacity-40"
           />
 
